@@ -1,0 +1,112 @@
+body{
+    background-color: #172A3A;
+    color: #FFB400;
+    font-family: 'Permanent Marker', cursive;
+}
+.container-fluid
+{
+    text-align: center;
+    margin: auto;
+}
+.container-fluid > h3
+{
+    font-size: 2rem;
+
+    margin: 2% auto;
+    font-family: 'Space Mono', monospace;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin: 2%;
+    font-size: 8rem;
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 7%;
+    font-family: 'Space Mono', monospace;
+}
+img{
+    width: 5%;
+}
+.box img{
+    width: 86%;
+    border-radius: 8%;
+}
+.box{
+    display: inline-block;
+    text-align: center;
+    width: 31%;
+    padding: 0% 3%;
+    margin: 0% 5%;
+}
+
+@media (min-width: 1100px ) and (max-width: 1275px) {
+    .box img{
+        width: 99%;
+        border-radius: 8%;
+    }
+    
+}
+@media (min-width: 836px ) and (max-width: 1100px) {
+    .box img{
+        width: 126%;
+        border-radius: 8%;
+        margin-left: -12%;
+    }
+}
+
+@media (min-width: 685px ) and (max-width: 835px) {
+   h1{
+       font-size: 6.5rem;
+   }
+   .container-fluid > h3 {
+    font-size: 2rem;
+    margin: 7% auto;
+    font-family: 'Space Mono', monospace;}
+    .box {
+        display: inline-block;
+        text-align: center;
+        width: 31%;
+        padding: 0% 3%;
+        margin: 0% 5%;}
+    #smile{
+        visibility: hidden;
+    }
+    .box img{
+        width: 146%;
+        border-radius: 8%;
+        margin-left: -21%;
+    }
+}
+@media (min-width: 300px ) and (max-width: 684px) {
+    h1{
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        margin: 2%;
+        font-size: 3.2rem;
+    }
+    .container-fluid > h3 {
+        font-size: 1.1rem;
+        margin: 8% auto;
+        font-family: 'Space Mono', monospace;
+    }
+     .box {
+        text-align: center;
+        display: block;
+        width: 90%;
+    }
+    .box h3
+    {
+        font-size: 1.4rem;
+        margin-bottom: 7%;
+        font-family: 'Space Mono', monospace;
+    }
+     #smile{
+         visibility: hidden;
+     }
+     .box img{
+        width: 68%;
+        border-radius: 8%;
+     }
+ }
